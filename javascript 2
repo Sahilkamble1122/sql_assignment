@@ -1,0 +1,9 @@
+<p id="myParagraph">This is my paragraph.</p>
+
+<script>
+  function setBackgroundColor(color) {
+    var paragraph = document.getElementById("myParagraph");
+    paragraph.style.backgroundColor = color;
+  }
+  setBackgroundColor("yellow");
+</script>
